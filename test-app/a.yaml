@@ -23,7 +23,7 @@ spec:
       imagePullSecrets:
         - name: acr-secret
       containers:
-        - image: testapp11.azurecr.io/test-repo:0.6
+        - image: testapp11.azurecr.io/test-repo:0.7
           name: my-app
           ports:
             - containerPort: 80
